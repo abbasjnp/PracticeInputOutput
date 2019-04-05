@@ -1,0 +1,6 @@
+<input type="number"  placeholder="enter the value" [(ngModel)]="updateStockValue">
+<button class="btn btn-primary" [style.background]='color'
+    (click)="stockValueChanged()" >Change Stock Value</button>
+<h3 *ngIf="out">{{out}}</h3>
+
+   

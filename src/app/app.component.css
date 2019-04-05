@@ -1,0 +1,6 @@
+.test{
+    padding:100px 100px;
+}
+.test h2{background: red;padding:10px 20px;text-align: center}
+.test form label{font-size: 20px;}
+.test form label input{width: 50%}
